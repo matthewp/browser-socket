@@ -1,0 +1,21 @@
+{
+  "name": "browser-socket",
+  "description": "Abstracts away the differences between browser socket implementations in Chrome and Firefox.",
+  "version":		"0.0.1",
+  "author": "Matthew Phillips <matthew@matthewphillips.info>",
+  "maintainer": "Matthew Phillips <matthew@matthewphillips.info>",
+  "repository":	{
+    "type": "git",
+    "url": "git@github.com:matthewp/browser-ssdp.git"
+    },
+  "bugs": {
+    "url": "https://github.com/matthewp/browser-ssdp/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-clean": "~0.4.0"
+  }
+}
