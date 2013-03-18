@@ -15,8 +15,8 @@ module.exports = function(grunt) {
         dest: outFile
       },
       options: {
-        banner: '(function() {\nvar root = {};\n',
-        footer: '\n})();'
+        banner: '(function(global) {\n',
+        footer: '\n})(this);'
       }
     },
     uglify: {

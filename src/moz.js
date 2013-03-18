@@ -1,5 +1,5 @@
 if(navigator.mozTCPSocket) {
-  var TCPSocket = function() {
+  TCPSocket = function() {
     navigator.mozTCPSocket.apply(this, arguments);
   };
   TCPSocket.prototype = Object.create(navigator.mozTCPSocket.prototype);
